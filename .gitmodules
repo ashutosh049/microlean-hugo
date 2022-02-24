@@ -1,0 +1,7 @@
+[submodule "themes/hugo-theme-cleanwhite-rsy"]
+	path = themes/hugo-theme-cleanwhite-rsy
+	url = https://github.com/ashutosh049/hugo-theme-cleanwhite-rsy.git
+[submodule "public"]
+	path = public
+	url = https://github.com/ashutosh049/ashutosh049.github.io.git
+	branch = master
