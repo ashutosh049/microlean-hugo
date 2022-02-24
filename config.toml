@@ -1,0 +1,134 @@
+baseurl = "https://ashutosh049.github.io"
+title = "Microlean"
+theme = "hugo-theme-cleanwhite-rsy"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
+#googleAnalytics = ""
+#preserveTaxonomyNames = true
+paginate = 8 #frontpage pagination
+
+#[outputs]
+#home = ["HTML", "RSS", "Algolia"]
+#home = ["HTML", "RSS"]
+#home = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  #header_image = "images/MeAtJackson.jpeg"
+  #header_image = "/images/banners/tenor.gif"
+  header_image = "/images/banners/main_background.jpg"
+  #logo_image = "images/YBrand_edit.png"
+  title = "Topics in Software Engineering"
+  author = "Kumar Ashutosh"
+  description = "Thoughts on software engineering, cloud architectures, Microservices, Design Patterns, Data Structure and Algorithm"
+  slogan = "How to do it and why does it work?"
+  SEOTitle = "Kumar Ashutosh Topics in Software Engineering"
+  keyword = "Kumar, Ashutosh, java, spring, microservice, cloud, dsa, data structure, algorithm"
+ 
+  # Sidebar settings
+  sidebar_about_description = "Aspiring Software Artist, Open Source Contributor , Microservice, Cloud Native and DDD Practitioner"
+  sidebar_avatar = "/images/about/profile-dummy-1.png"
+  about_me = true
+
+  featured_tags = true 
+  featured_condition_size = 1 # How many posts have to have a given tag to be featured (greater-than)
+
+  image_404 = "/images/banners/fUcdgux.gif"
+  title_404 = "We couldn't find what you were looking for..."
+  omit_categories = false
+
+  friends = false
+  bookmarks = false
+
+  # comments
+  hyvor = true
+  github = false
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  #algolia_search = true
+  #algolia_appId = ""
+  #algolia_indexName = ""
+  #algolia_apiKey = ""
+
+  # Baidu Analytics
+  #ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  #disqus_proxy = ""
+  #disqus_site = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  #reward = true 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+
+  [params.social]
+  rss            = true 
+  email          = "ashutosh049@outlook.com"
+  linkedin       = "https://www.linkedin.com/in/ashutosh049"
+  github         = "https://github.com/ashutosh049"
+  medium         = "https://medium.com/@ashutosh049"
+  stackoverflow  = "https://stackoverflow.com/users/5324721/kumar-ashutosh"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #instagram     = "full profile url in instagram"
+  #twitter        = "https://twitter.com"
+  #wechat        = "your wechat qr code image"
+  #pinterest     = "full profile url in pinterest"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
+  #git           = "full profile url for git user"
+  
+  #[[params.friend_link]]
+  #title = "Linda的博客"
+  #href =  "https://zhaozhihan.com"
+
+  #[[params.bookmark_link]]
+  #title =  "Martin Fowler"
+  #href =  "https://martinfowler.com"
+  #[[params.bookmark_link]]
+  #title = "ServiceMesher"
+  #href =  "http://www.servicemesher.com"
+  #[[params.bookmark_link]]
+  #title =  "Pxhere"
+  #href = "https://pxhere.com"
+  #[[params.bookmark_link]]
+  #title = "unsplash"
+  #href = "https://unsplash.com"
+  
+#[outputFormats.Algolia]
+#baseName = "algolia"
+#isPlainText = true
+#mediaType = "application/json"
+#notAlternative = true
+
+#[params.algolia]
+#vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+#params = ["categories", "tags"] 
+
+#[markup]
+#  [markup.tableOfContents]
+#    endLevel = 2
+#    startLevel = 1
+#  [markup.highlight]
+#    style = "dracula"

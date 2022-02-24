@@ -1,0 +1,13 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+hidden
+.history
