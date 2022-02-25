@@ -83,7 +83,6 @@ paginate = 8 #frontpage pagination
   [params.social]
   rss            = true 
   email          = "ashutosh049@outlook.com"
-  linkedin       = "https://www.linkedin.com/in/ashutosh049"
   github         = "https://github.com/ashutosh049"
   medium         = "https://medium.com/@ashutosh049"
   stackoverflow  = "https://stackoverflow.com/users/5324721/kumar-ashutosh"
