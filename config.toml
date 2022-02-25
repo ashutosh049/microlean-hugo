@@ -46,7 +46,7 @@ paginate = 8 #frontpage pagination
   bookmarks = false
 
   # comments
-  hyvor = true
+  hyvor = false # Need to update
   github = false
 
   # leancloud storage for page view counter

@@ -8,7 +8,7 @@ image: "images/github-pagesLightBlue.jpeg"
 tags: ["Spring", "Threads", "Java"]
 categories: ["Tech"]
 GHissueID: 2
-toc: true
+toc: false
 ---
 
 `corePoolSize` vs. `maxPoolSize` vs. `queueCapacity`

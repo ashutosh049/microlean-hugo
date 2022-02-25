@@ -3,11 +3,10 @@ title: "Binary Tree: Lowest Common Ancestor (LCA)"
 description: "Solving Binary Tree: Lowest Common Ancestor"
 date: 2020-08-31T13:09:42-06:00
 draft: false
-image: "images/github-pagesLightBlue.jpeg"
-tags: ["Java", "DSA", "Leetcode", "Binary Tree", "Tree Travesal"]
+tags: ["Java", "DSA", "Leetcode", "Binary Tree", "Tree Traversal"]
 categories: ["Leetcode"]
 GHissueID: 2
-toc: true
+toc: false
 ---
 
 <u>[Module: Binary Tree](https://dev.to/ashutosh049/series/16012)</u>
