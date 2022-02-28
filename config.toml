@@ -6,7 +6,7 @@ languageCode = "en-us"
 #disqusShortname = ""
 #googleAnalytics = ""
 #preserveTaxonomyNames = true
-paginate = 8 #frontpage pagination
+paginate = 3 #frontpage pagination
 
 #[outputs]
 #home = ["HTML", "RSS", "Algolia"]
@@ -19,11 +19,9 @@ paginate = 8 #frontpage pagination
       unsafe = true
 
 [params]
-  #header_image = "images/MeAtJackson.jpeg"
-  #header_image = "/images/banners/tenor.gif"
-  header_image = "/images/banners/main_background.jpg"
-  #logo_image = "images/YBrand_edit.png"
-  title = "Topics in Software Engineering"
+  #header_image = "/images/banners/main_background.jpg"
+  header_image = "/images/banners/main_background_2.png"
+  title = "Engineering & Dev Essentials"
   author = "Kumar Ashutosh"
   description = "Thoughts on software engineering, cloud architectures, Microservices, Design Patterns, Data Structure and Algorithm"
   slogan = "How to do it and why does it work?"
@@ -46,8 +44,8 @@ paginate = 8 #frontpage pagination
   bookmarks = false
 
   # comments
-  hyvor = false # Need to update
-  github = false
+  hyvor = true # Need to update
+  github = true
 
   # leancloud storage for page view counter
   page_view_conter = false 
@@ -81,10 +79,10 @@ paginate = 8 #frontpage pagination
   href =  "/top/about/"
 
   [params.social]
-  rss            = true 
+  rss            = false
   email          = "ashutosh049@outlook.com"
   github         = "https://github.com/ashutosh049"
-  medium         = "https://medium.com/@ashutosh049"
+  #medium         = "https://medium.com/@ashutosh049"
   stackoverflow  = "https://stackoverflow.com/users/5324721/kumar-ashutosh"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
@@ -98,22 +96,7 @@ paginate = 8 #frontpage pagination
   #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
   
-  #[[params.friend_link]]
-  #title = "Linda的博客"
-  #href =  "https://zhaozhihan.com"
 
-  #[[params.bookmark_link]]
-  #title =  "Martin Fowler"
-  #href =  "https://martinfowler.com"
-  #[[params.bookmark_link]]
-  #title = "ServiceMesher"
-  #href =  "http://www.servicemesher.com"
-  #[[params.bookmark_link]]
-  #title =  "Pxhere"
-  #href = "https://pxhere.com"
-  #[[params.bookmark_link]]
-  #title = "unsplash"
-  #href = "https://unsplash.com"
   
 #[outputFormats.Algolia]
 #baseName = "algolia"
@@ -131,3 +114,11 @@ paginate = 8 #frontpage pagination
 #    startLevel = 1
 #  [markup.highlight]
 #    style = "dracula"
+
+
+# taxonomies
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
+  slug = 'slug '

@@ -4,7 +4,6 @@ title: "Demystifying Spring Task Executor"
 description: "A blog about what and how to configure Spring Task executor core pool size, max pool size and queue capacity"
 date: 2020-08-31T13:09:42-06:00
 draft: false
-image: "images/github-pagesLightBlue.jpeg"
 tags: ["Spring", "Threads", "Java"]
 categories: ["Tech"]
 GHissueID: 2

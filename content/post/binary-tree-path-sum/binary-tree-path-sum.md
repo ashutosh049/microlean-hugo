@@ -1,15 +1,16 @@
 ---
-title: "Binary Tree: Path Sum Iterative Post Order approach and explanation"
-description: "Solving Binary Tree: Path Sum"
+title: "Binary Tree path sum"
+description: "Binary Tree Path Sum Iterative Post Order approach and explanation"
 date: 2020-08-31T13:09:42-06:00
 draft: false
 tags: ["Java", "DSA", "Leetcode", "Binary Tree", "Tree Traversal"]
 categories: ["Leetcode"]
 GHissueID: 2
 toc: false
+#series: ["Binary Tree"]
+series: Binary Tree
+#slug: "leetcode"
 ---
-
-<u>[Module: Binary Tree](https://dev.to/ashutosh049/series/16012)</u>
 
 You can refer to the Leetcode problem [112. Path Sum](https://leetcode.com/problems/path-sum/)
 
@@ -22,7 +23,7 @@ Given the `root` of a binary tree and an integer `targetSum`, return `true` if t
 
 Example 1:
 
-<img src="https://assets.leetcode.com/uploads/2021/01/18/pathsum1.jpg">
+![binary-tree-path-sum](/content/post/binary-tree-path-sum/binary-tree-path-sum.png)
 
 Input:
 `root` = [5,4,8,11,null,13,4,7,2,null,null,null,1], `targetSum` = 22
@@ -50,7 +51,7 @@ While you descend and go on adding the node values, on traversing up, we need to
 `Input`: [1,-2,-3,1,3,-2,null,-1]
 `targetSum`: 2
 
-![image](https://assets.leetcode.com/users/images/127ee906-f4e0-4a53-b31f-bd1c207605f3_1639604524.051273.png)
+![image](/content/post/binary-tree-path-sum/binary-tree-path-sum-example-1.png)
 
 Steps/Dry run :
 1. We declared a `currSum` variable to hold our total sum till current node

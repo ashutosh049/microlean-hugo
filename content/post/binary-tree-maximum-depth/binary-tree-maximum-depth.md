@@ -1,15 +1,14 @@
 ---
-title: "Binary Tree: Maximum Depth/Height Of Deepest Node using recursive and iterative way"
-description: "Solving Binary Tree: Maximum Depth/Height Of Deepest Node"
+title: "Binary Tree Depth/Height"
+description: "Binary Tree Depth/Height Of Deepest Node using recursive and iterative way"
 date: 2020-08-31T13:09:42-06:00
-draft: false
 tags: ["Java", "DSA", "Leetcode", "Binary Tree", "Tree Traversal"]
 categories: ["Leetcode"]
 GHissueID: 2
 toc: false
+series: ["Binary Tree"]
+slug: "leetcode"
 ---
-
-<u>[Module: Binary Tree](https://dev.to/ashutosh049/series/16012)</u>
 
 You can refer to the Leetcode problem [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
