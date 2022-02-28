@@ -6,7 +6,7 @@ languageCode = "en-us"
 #disqusShortname = ""
 #googleAnalytics = ""
 #preserveTaxonomyNames = true
-paginate = 3 #frontpage pagination
+paginate = 10 #frontpage pagination
 
 #[outputs]
 #home = ["HTML", "RSS", "Algolia"]
@@ -44,7 +44,7 @@ paginate = 3 #frontpage pagination
   bookmarks = false
 
   # comments
-  hyvor = true # Need to update
+  hyvor = false # Need to update
   github = true
 
   # leancloud storage for page view counter
