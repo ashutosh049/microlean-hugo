@@ -1,17 +1,11 @@
 ---
-title: "Binary Tree Lowest Common Ancestor (LCA)"
-description: "Solving Binary Tree: Lowest Common Ancestor"
-date: 2020-08-31T13:09:42-06:00
-draft: false
-tags: ["Java", "DSA", "Leetcode", "Binary Tree", "Tree Traversal"]
-categories: ["Leetcode"]
-GHissueID: 2
-toc: false
-series: ["Binary Tree"]
-slug: "leetcode"
+title: 236. Lowest Common Ancestor of a Binary Tree
+weight: 3
+bookToc: true
+bookComments: true
 ---
 
-You can refer to the Leetcode problem [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+# [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 ---
 #### Problem Statement

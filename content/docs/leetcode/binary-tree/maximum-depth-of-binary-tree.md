@@ -1,18 +1,13 @@
 ---
-title: "Binary Tree Depth/Height"
-description: "Binary Tree Depth/Height Of Deepest Node using recursive and iterative way"
-date: 2020-08-31T13:09:42-06:00
-tags: ["Java", "DSA", "Leetcode", "Binary Tree", "Tree Traversal"]
-categories: ["Leetcode"]
-GHissueID: 2
-toc: false
-series: ["Binary Tree"]
-slug: "leetcode"
+title: 104. Maximum Depth of Binary Tree
+weight: 3
+bookToc: true
+bookComments: true
 ---
 
-You can refer to the Leetcode problem [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+# [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
-#### Problem Statement
+### Problem Statement
 
 Given the root of a binary tree, return its maximum depth.
 
@@ -60,7 +55,7 @@ class Solution {
 }
 ```
 
-#### 1. Recursive traversal
+#### Recursive traversal
 
 ```java
  private int maxDepth_Recursive(TreeNode root){
@@ -69,7 +64,7 @@ class Solution {
  }
 ```
 
-#### 2. Iterative BFS
+#### Iterative BFS
 We can use BFS to get the highest level(deepest node). Implement BFS, return the size of the List of level nodes.
 
 Check this question for more into on [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/http://)
@@ -114,7 +109,7 @@ private int maxDepth_Iterative_BFS(TreeNode root){
 }
 ```
 
-#### 3. Iterative traversal using height variable
+#### Iterative traversal using height variable
 
 ```java
 private int maxDepth_usingHeightVariable(TreeNode root){

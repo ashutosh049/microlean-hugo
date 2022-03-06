@@ -276,3 +276,15 @@ Admin@DESKTOP-6G798VA MINGW64 /d/PROJECTS/MICROLEAN_BLOG/microlean-hugo (master)
 $
 
 ```
+
+
+##### Update to hugo extended version
+
+1. Open windows powershell as admin
+2. run `choco install hugo-extended -confirm`
+3. Verify hugo version. Find `extended` word in verison info
+
+```shell
+$ hugo version
+hugo v0.93.2-643B5AE9+extended windows/amd64 BuildDate=2022-03-04T12:21:49Z VendorInfo=gohugoio
+```
