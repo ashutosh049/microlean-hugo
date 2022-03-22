@@ -14,7 +14,7 @@ bookToc: false
 
 `Hello visitor, Welcome to µicrolean!`
 
-`I’m Ashutosh. This is a place for me to write gome geek stuff and record my learning.`
+`I’m Ashutosh. This is a place for me to write some geek stuff and record my learning.`
 
 `You might wanna try searching for your topic in the search box ;)`
 
