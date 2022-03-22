@@ -6,15 +6,18 @@ bookComments: true
 ---
 
 # [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+![Leetcode Easy](/images/leetcode_lvl_badges/easy.svg)
 
-### Problem Statement
+---
 
+## Problem
 Given the root of a binary tree, return its maximum depth.
 
 > A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
-Example 1:
+### Example
 
+#### Example 1:
 ```
     (3)
  /      \
@@ -27,35 +30,16 @@ Example 1:
 Input: root = `[3,9,20,null,null,15,7]`
 Output: `3`
 
-### The calling function
+### Constraints
+1. The number of nodes in the tree is in the range [0, 104]. 
+2. {{< katex >}} -100 <= Node.val <= 100 {{< /katex >}}
+### Follow up
 
-```java
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public int maxDepth(TreeNode root) {
-        //return maxDepth_Recursive(root);
-        //return maxDepth_Iterative_BFS(root);
-        return maxDepth_usingHeightVariable(root);
-        
-    } 
-}
-```
+---
 
-#### Recursive traversal
+## Approach and Intuition
+
+### 1. Recursive traversal
 
 ```java
  private int maxDepth_Recursive(TreeNode root){
@@ -64,7 +48,12 @@ class Solution {
  }
 ```
 
-#### Iterative BFS
+`Time Complexity`: {{< katex >}} O(n) {{< /katex >}}
+
+`Space Complexity`: {{< katex >}} O(n) {{< /katex >}}
+
+### 2. Iterative BFS
+
 We can use BFS to get the highest level(deepest node). Implement BFS, return the size of the List of level nodes.
 
 Check this question for more into on [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/http://)
@@ -109,7 +98,11 @@ private int maxDepth_Iterative_BFS(TreeNode root){
 }
 ```
 
-#### Iterative traversal using height variable
+`Time Complexity`: {{< katex >}} O(n) {{< /katex >}}
+
+`Space Complexity`: {{< katex >}} O(n) {{< /katex >}}
+
+### 3. Iterative traversal using height variable
 
 ```java
 private int maxDepth_usingHeightVariable(TreeNode root){
@@ -143,12 +136,23 @@ private int maxDepth_usingHeightVariable(TreeNode root){
 }
 ```
 
-> Time Complexity for all the 3 way : `O(n)`
-> Space Complexity for all the 3 way : `O(n)`
+`Time Complexity`: {{< katex >}} O(n) {{< /katex >}}
 
-#### Related problems
+`Space Complexity`: {{< katex >}} O(n) {{< /katex >}}
+
+---
+
+## Related problems
 1. [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/solution/)
 2. [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
 3. [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 4. [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 5. [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
+{{< columns >}}
+<--->
+<--->
+{{< button relref="/balanced_binary_tree" >}} 110. Balanced Binary Tree {{< fontawesome "solid/circle-arrow-right" >}} {{< /button >}}
+{{< /columns >}}
+
+---

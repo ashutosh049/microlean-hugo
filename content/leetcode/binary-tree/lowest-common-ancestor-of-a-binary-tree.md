@@ -5,16 +5,18 @@ bookToc: true
 bookComments: true
 ---
 
+
 # [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+![Leetcode Medium](/images/leetcode_lvl_badges/medium.svg)
 
 ---
-#### Problem Statement
-
+## Problem
 Given a binary tree, find the `lowest common ancestor` (LCA) of two given nodes in the tree.
 
 > According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 
----
+### Example
+
 #### Example 1:
 
 <img src="https://assets.leetcode.com/uploads/2018/12/14/binarytree.png">
@@ -31,8 +33,13 @@ Output: `5`
 Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.
 
 
+### Constraints
+
+### Follow up
+
 ---
-#### Intuition
+
+## Approach and Intuition
 
 We need to find the common first parent which has both `p` and `q` as descendants.
 
@@ -78,17 +85,22 @@ if(root == p || root == q){
 - Finally, in the call stack of root node `3`, left node is `8` and right node is `11`. These 2 values are compared and since both are present(not null), current root (`3`) is returned which returned back till Tree root `1`.
 
 ---
-#### Complexity Analysis
+### Complexity Analysis
 
-`Time complexity`: `O(N)`, where `N` is the number of nodes in the binary tree. In the worst case(left skewed or right skewed) we might be visiting all the nodes of the binary tree.
+`Time complexity`:
+{{< katex >}}
+O(N)
+{{< /katex >}} , where 'N' is the number of nodes in the binary tree. In the worst case(left skewed or right skewed) we might be visiting all the nodes of the binary tree.
 
-`Space complexity`: `O(N)`. This is because the maximum amount of space utilized by the recursion stack would be `N` since the height of a skewed binary tree could be `N`.
+`Space complexity`: {{< katex >}} O(N) {{< /katex >}}. This is because the maximum amount of space utilized by the recursion stack would be `N` since the height of a skewed binary tree could be `N`.
 
 
 
 ---
-#### program
+### program
 
+{{< tabs "lowest-common-ancestor-of-a-binary-tree" >}}
+{{< tab "Java" >}} 
 ```java
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -114,7 +126,13 @@ class Solution {
     }
 }
 ```
-#### Test cases
+{{< /tab >}}
+{{< tab "C++" >}}  {{< /tab >}}
+{{< tab "Python" >}}  {{< /tab >}}
+{{< tab "Javascript" >}}  {{< /tab >}}
+{{< /tabs >}}
+
+### Test cases
 ```java
 [3,5,1,6,2,0,8,null,null,7,4]
 5
@@ -128,15 +146,20 @@ class Solution {
 ```
 
 ---
-#### Related problems
+### Related problems
 - [Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
 - [Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)
 - [Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
 
 ---
 
-PS: Stay tuned for more such problem explanation and approaches
-
 Problem Credit : [leetcode.com](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
+{{< columns >}}
 
+{{< button relref="/binary_search_tree_iterator" >}} {{< fontawesome "solid/circle-arrow-left" >}} 173. Binary Search Tree Iterator {{< /button >}}
+<--->
+{{< button relref="/binary-tree-paths" >}} 257. Binary Tree Paths {{< fontawesome "solid/circle-arrow-right" >}} {{< /button >}}
+{{< /columns >}}
+
+---
