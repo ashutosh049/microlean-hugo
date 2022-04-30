@@ -33,10 +33,7 @@ Explanation: `The answer is "b", with the length of 1.`
 {{< tab "Follow up" >}}  {{< /tab >}}
 {{< /tabs >}}
 
-
-## Approach and Intuition
-
-### Brute force
+#### Brute force
 
 We can determine all possible substring out of given string s and check for valid sub-string(string without repeating characters), and among such such valid sub-strings, we can formulate te largest string.
 
@@ -112,12 +109,3 @@ Possible test cases
 ---
 
 Problem Credit : [leetcode.com](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-
-{{< columns >}}
-
-{{< button relref="/binary_search_tree_iterator" >}} {{< fontawesome "solid/circle-arrow-left" >}} 173. Binary Search Tree Iterator {{< /button >}}
-<--->
-{{< button relref="/binary-tree-paths" >}} 257. Binary Tree Paths {{< fontawesome "solid/circle-arrow-right" >}} {{< /button >}}
-{{< /columns >}}
-
----
